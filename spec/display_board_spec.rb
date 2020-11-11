@@ -23,7 +23,7 @@ describe "#display_board in 'lib/display_board.rb" do
 
       expect(rows[0]).to eq("   |   |   ")
       expect(rows[1]).to eq("-----------")
-      expect(rows[2]).to eq("   | X |   ")
+      expect(rows[2]).to eq("   |   |   ")
       expect(rows[3]).to eq("-----------")
       expect(rows[4]).to eq("   |   |   ")
 
