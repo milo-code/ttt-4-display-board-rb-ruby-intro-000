@@ -136,7 +136,7 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[4]).to eq(" O | X | O ")
     end
 
-    it 'prints an entire board full of Xs' do
+    it 'prints an entire board full of Xs whatsup' do
 
       board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
 
